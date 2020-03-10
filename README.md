@@ -16,7 +16,11 @@ Grossmann, Maria (Ed.) and Franz Rainer (Ed.). La formazione delle parole in ita
 
 ### Organizers
 Pierpaolo Basile - Università di Bari "A. Moro"
+
 Tommaso Caselli - Rijksuniveristeit Gronigen
+
 Annalina Caputo - Dublin City University
+
 Rossella Varvara - Università di Firenze
+
 Pierluigi Cassotti - Università di Bari "A. Moro"
