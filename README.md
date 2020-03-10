@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to the DIACR-Ita task!
 
-You can use the [editor on GitHub](https://github.com/diacr-ita/DIACR-Ita/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+DIACR-Ita is the first task on lexical semantic change for Italian, combining together computational and historical linguistics. The task challenges participants to develop systems that can automatically detect if a given word has changed its meaning over time, given contextual information from corpora.
 
-### Markdown
+It is a well known fact that word meanings can evolve in different ways. They can undergo pejoration or amelioration (when
+meanings become respectively more negative or more positive) or they can be object of broadening (also referred to as generalization or extension) or narrowing (also known as restriction or specialization). For instance, the Italian word "portamento" (gait) which has underwent a narrowing of the meaning, loosing the action meaning (i.e., the act of bearing) (Grossmann & Reiner (eds), 2004). Semantic changes can be further classified based on the cognitive process they result from, i.e. either from metonymy or metaphor. Lastly, it is possible to distinguish among changes due to language-internal factors or to language-external ones (Hollmann, 2009). [ESEMPIO IN ITA? - un caso carino è cellulare - nominalizzazione da aggettivo]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In recent years, there has been a significant increase of interest in lexical semantic change detection. Many are the existing approaches, data used, and evaluation strategies to detect semantic drift. Most of the approaches rely on diachronic word embeddings, some of these created as post-processing of static word embedding, such as Hamilton et al. (2016), while others create dynamic word embeddings, where vectors share the same space for all time periods (Del Tredici et al., 2016; Yao et al., 2018; Rudolph and Blei, 2018; Dubossarsky et al., 2019). Finally, recent work exploits word sense induction algorithms to discover semantic shifts (Tahmasebi and Risse, 2017; Hu et al., 2019). A more complete state of the art is described in a critically and concise way in the latest surveys (Tahmasebi et al., 2018; Kutuzov et al., 2018; Tang, 2018). The large majority of the methods use English as the target language for the diachronic analysis, while other languages remain under-explored. To date, only one evaluation has been carried out on the Italian language using the Kronos-it dataset (Basile et al., 2019).
 
-```markdown
-Syntax highlighted code block
+DIACR-Ita is a twin task of the the Semeval 2020 Task 1: Unsupervised Lexical Semantic Change Detection (https://competitions.codalab.org/competitions/20948) that  will host for the first time a task on unsupervised lexical semantic change detection.
 
-# Header 1
-## Header 2
-### Header 3
+### References
 
-- Bulleted
-- List
+Grossmann, Maria (Ed.) and Franz Rainer (Ed.). La formazione delle parole in italiano. Berlin, Boston: De Gruyter, 2013. Web. Retrieved 10 Mar. 2020, from https://www-degruyter-com.proxy-ub.rug.nl/view/product/25447
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/diacr-ita/DIACR-Ita/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Organizers
+Pierpaolo Basile - Università di Bari "A. Moro"
+Tommaso Caselli - Rijksuniveristeit Gronigen
+Annalina Caputo - Dublin City University
+Rossella Varvara - Università di Firenze
+Pierluigi Cassotti - Università di Bari "A. Moro"
