@@ -8,8 +8,6 @@
 - [Important Dates](#important-dates)
 - [Organizers](#organizers)
 
-## Task Description
-
 
 DIACR-Ita is the first task on lexical semantic change for Italian, combining together computational and historical linguistics. The task challenges participants to develop systems that can automatically detect if a given word has changed its meaning over time, given contextual information from corpora.
 
@@ -19,6 +17,12 @@ meanings become respectively more negative or more positive) or they can be obje
 In recent years, there has been a significant increase of interest in lexical semantic change detection. Many are the existing approaches, data used, and evaluation strategies to detect semantic drift. Most of the approaches rely on diachronic word embeddings, some of these created as post-processing of static word embedding, such as Hamilton et al. (2016), while others create dynamic word embeddings, where vectors share the same space for all time periods (Del Tredici et al., 2016; Yao et al., 2018; Rudolph and Blei, 2018; Dubossarsky et al., 2019). Finally, recent work exploits word sense induction algorithms to discover semantic shifts (Tahmasebi and Risse, 2017; Hu et al., 2019). A more complete state of the art is described in a critically and concise way in the latest surveys (Tahmasebi et al., 2018; Kutuzov et al., 2018; Tang, 2018). The large majority of the methods use English as the target language for the diachronic analysis, while other languages remain under-explored. To date, only one evaluation has been carried out on the Italian language using the Kronos-it dataset (Basile et al., 2019).
 
 DIACR-Ita is a twin task of the the Semeval 2020 Task 1: Unsupervised Lexical Semantic Change Detection (https://competitions.codalab.org/competitions/20948) that  will host for the first time a task on unsupervised lexical semantic change detection.
+
+## Task Description
+The goal of the task is to establish if a set of words (target words) change their meaning across two periods, t1 and t2, where t1 precedes t2.
+Following the SemEval 2020 Task 1 setting, we rely on the comparison of two time periods. In this way we tackle two issues: 1) we reduce the number of time periods for which data has to be annotated; 2) we reduces the task complexity, allowing different model architectures to be applied to it, widening the range of possible participants.
+Participants will be provided with two corpora C1 and C2 (for time periods t1 and t2, respectively), and a set of target words. For each of them, systems have to decide whether a word changed or not its meaning between t1 and t2 according to the occurrences of target word(s) in sentences in C1 and C2. For instance, the meaning of the word “imbarcata” is known to have expanded (i.e, it has acquired a new sense) from t1 to t2. 4 This will be reflected in different occurrences of use in sentences between C1 and C2.
+The task is formulated as a closed task (i.e., participants must train their models on the data that are provided).
 
 ### References
 
@@ -49,13 +53,9 @@ Zijun Yao, Yifan Sun, Weicong Ding, Nikhil Rao, and Hui Xiong. 2018. Dynamic wor
 - **30th November – 3rd December 2020**: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
 
 
-### Organizers
+## Organizers
 Pierpaolo Basile - Università di Bari "A. Moro"
-
 Tommaso Caselli - Rijksuniveristeit Gronigen
-
 Annalina Caputo - Dublin City University
-
 Rossella Varvara - Università di Firenze
-
 Pierluigi Cassotti - Università di Bari "A. Moro"
