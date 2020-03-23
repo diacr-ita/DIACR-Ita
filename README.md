@@ -4,6 +4,7 @@
 
 - [Task Description](#task-description)
 - [Data Description](#data-description)
+- [Guidelines](#guidelines)
 - [References](#references)
 - [Important Dates](#important-dates)
 - [Organizers](#organizers)
@@ -21,8 +22,12 @@ DIACR-Ita is a twin task of the the Semeval 2020 Task 1: Unsupervised Lexical Se
 ## Task Description
 The goal of the task is to establish if a set of words (target words) change their meaning across two periods, t1 and t2, where t1 precedes t2.
 Following the SemEval 2020 Task 1 setting, we rely on the comparison of two time periods. In this way we tackle two issues: 1) we reduce the number of time periods for which data has to be annotated; 2) we reduces the task complexity, allowing different model architectures to be applied to it, widening the range of possible participants.
-Participants will be provided with two corpora C1 and C2 (for time periods t1 and t2, respectively), and a set of target words. For each of them, systems have to decide whether a word changed or not its meaning between t1 and t2 according to the occurrences of target word(s) in sentences in C1 and C2. For instance, the meaning of the word “imbarcata” is known to have expanded (i.e, it has acquired a new sense) from t1 to t2. 4 This will be reflected in different occurrences of use in sentences between C1 and C2.
+Participants will be provided with two corpora C1 and C2 (for time periods t1 and t2, respectively), and a set of target words. For each of them, systems have to decide whether a word changed or not its meaning between t1 and t2 according to the occurrences of target word(s) in sentences in C1 and C2. For instance, the meaning of the word “imbarcata” is known to have expanded (i.e, it has acquired a new sense) from t1 to t2 (originally it refers to an acrobatic manoeuvre of aeroplanes, but nowadays it is also used to refer to the state of being deeply in love with someone.) This will be reflected in different occurrences of use in sentences between C1 and C2.
 The task is formulated as a closed task (i.e., participants must train their models on the data that are provided).
+
+## Guidelines
+<a href="username.github.io/folder/EVALITA_2020___DIACR_ita___Guidelines-2.pdf" target="_blank">Guidelines</a>
+
 
 ### References
 
