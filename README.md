@@ -18,7 +18,7 @@ meanings become respectively more negative or more positive) or they can be obje
 
 In recent years, there has been a significant increase of interest in lexical semantic change detection. Many are the existing approaches, data used, and evaluation strategies to detect semantic drift. Most of the approaches rely on diachronic word embeddings, some of these created as post-processing of static word embedding, such as Hamilton et al. (2016), while others create dynamic word embeddings, where vectors share the same space for all time periods (Del Tredici et al., 2016; Yao et al., 2018; Rudolph and Blei, 2018; Dubossarsky et al., 2019). Finally, recent work exploits word sense induction algorithms to discover semantic shifts (Tahmasebi and Risse, 2017; Hu et al., 2019). A more complete state of the art is described in a critically and concise way in the latest surveys (Tahmasebi et al., 2018; Kutuzov et al., 2018; Tang, 2018). The large majority of the methods use English as the target language for the diachronic analysis, while other languages remain under-explored. To date, only one evaluation has been carried out on the Italian language using the Kronos-it dataset (Basile et al., 2019).
 
-DIACR-Ita is a twin task of the the Semeval 2020 Task 1: Unsupervised Lexical Semantic Change Detection (https://competitions.codalab.org/competitions/20948) that  will host for the first time a task on unsupervised lexical semantic change detection.
+DIACR-Ita builds independently on the the Semeval 2020 Task 1: Unsupervised Lexical Semantic Change Detection (Schlechtweg et al. 2020, https://competitions.codalab.org/competitions/20948) that  will host for the first time a task on unsupervised lexical semantic change detection.
 
 ## Task Description
 The goal of the task is to establish if a set of words (target words) change their meaning across two periods, t1 and t2, where t1 precedes t2.
@@ -52,6 +52,8 @@ Andrey Kutuzov, Lilja Øvrelid, Terrence Szymanski, and Erik Velldal. 2018. Diac
 Maja Rudolph and David Blei. 2018. Dynamic Embeddings for Language Evolution. In WWW ’18: Proceedings of the 2018 World Wide Web Conference, pages 1003–1011. Association for Computing Machinery (ACM).
 
 Dominik Schlechtweg, Sabine Schulte im Walde, and Stefanie Eckmann. 2018. Diachronic usage relatedness (DURel): A framework for the annotation of lexical semantic change. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technolo- gies, Volume 2 (Short Papers), pages 169–174, New Orleans, Louisiana, June. Association for Computational Linguistics.
+
+Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky and Nina Tahmasebi. 2020. SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection. SemEval@COLING2020.
 
 Nina Tahmasebi and Thomas Risse. 2017. Finding IndividualWord Sense Changes and their Delay in Appearance. In International Conference Recent Advances in Natural Language Processing, pages 741–749. Assoc. for Computational Linguistics Bulgaria, nov.
 
