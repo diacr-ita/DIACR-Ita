@@ -1,6 +1,10 @@
 ## Welcome to the DIACR-Ita task!
 DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it/2020/), the 7th evaluation campaign of Natural Language Processing and Speech tools for Italian, which will be held in Bologna (Italy) and will be co-located with [CLiC-it 2020](http://clic2020.ilc.cnr.it/en/home-2/) (November 30th – December 3rd 2020).
 
+## News
+5 May 2020 - Call for participation:
+If you would like to take part in the challenge, let us know! Please, fill in this [form](https://forms.gle/pXgWVDiMMUYDgeyM7).
+
 ## Menu
 
 - [Task Description](#task-description)
