@@ -31,7 +31,7 @@ Participants will be provided with two corpora C1 and C2 (for time periods t1 an
 The task is formulated as a closed task (i.e., participants must train their models on the data that are provided).
 
 ## Guidelines
-<a href="{{ site.github }}/guidelines/EVALITA_2020___DIACR_ita___Guidelines-2.pdf" target="_blank">Guidelines</a>
+<a href="username.github.io/folder/EVALITA_2020___DIACR_ita___Guidelines-2.pdf" target="_blank">Guidelines</a>
 
 
 ### References
