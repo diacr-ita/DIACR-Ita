@@ -1,5 +1,7 @@
 ---
-redirect_from: http://diacr-ita.github.io/
+redirect_from:
+  - https://diacr-ita.github.io/
+  - http://diacr-ita.github.io/  
 layout: default
 ---
 
