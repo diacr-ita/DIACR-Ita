@@ -1,98 +1,110 @@
-## Welcome to the DIACR-Ita task!
+# The Dinky theme
 
-DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it/2020/), the 7th evaluation campaign of Natural Language Processing and Speech tools for Italian, which will be held in Bologna (Italy) and will be co-located with [CLiC-it 2020](http://clic2020.ilc.cnr.it/en/home-2/) (November 30th – December 3rd 2020).
+[![Build Status](https://travis-ci.org/pages-themes/dinky.svg?branch=master)](https://travis-ci.org/pages-themes/dinky) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-dinky.svg)](https://badge.fury.io/rb/jekyll-theme-dinky)
 
+*Dinky is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/dinky), or even [use it today](#usage).*
 
-## News
+![Thumbnail of Dinky](thumbnail.png)
 
-14 May 2020 - Google Groups:
-Join our [Google Groups](https://groups.google.com/forum/embed/?place=forum/evalita-2020-diacr-ita) to receive the latest news and post questions and doubts.
+## Usage
 
-5 May 2020 - Call for participation:
-If you would like to take part in the challenge, let us know! Please, fill in this [form](https://forms.gle/pXgWVDiMMUYDgeyM7).
+To use the Dinky theme:
 
+1. Add the following to your site's `_config.yml`:
 
-## Menu
+    ```yml
+    theme: jekyll-theme-dinky
+    ```
 
-- [Task Description](#task-description)
-- [Data Description](#data-description)
-- [Guidelines](#guidelines)
-- [References](#references)
-- [Important Dates](#important-dates)
-- [Organizers](#organizers)
+2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
+    ```ruby
+    gem "github-pages", group: :jekyll_plugins
+    ```
 
-DIACR-Ita is the first task on lexical semantic change for Italian, combining together computational and historical linguistics. The task challenges participants to develop systems that can automatically detect if a given word has changed its meaning over time, given contextual information from corpora.
+## Customizing
 
-It is a well known fact that word meanings can evolve in different ways. They can undergo pejoration or amelioration (when
-meanings become respectively more negative or more positive) or they can be object of broadening (also referred to as generalization or extension) or narrowing (also known as restriction or specialization). For instance, the Italian word "portamento" (gait) which has underwent a narrowing of the meaning, loosing the action meaning (i.e., the act of bearing) (Grossmann & Reiner (eds), 2004). Semantic changes can be further classified based on the cognitive process they result from, i.e. either from metonymy or metaphor. Lastly, it is possible to distinguish among changes due to language-internal factors or to language-external ones (Hollmann, 2009). 
+### Configuration variables
 
-In recent years, there has been a significant increase of interest in lexical semantic change detection. Many are the existing approaches, data used, and evaluation strategies to detect semantic drift. Most of the approaches rely on diachronic word embeddings, some of these created as post-processing of static word embedding, such as Hamilton et al. (2016), while others create dynamic word embeddings, where vectors share the same space for all time periods (Del Tredici et al., 2016; Yao et al., 2018; Rudolph and Blei, 2018; Dubossarsky et al., 2019). Finally, recent work exploits word sense induction algorithms to discover semantic shifts (Tahmasebi and Risse, 2017; Hu et al., 2019). A more complete state of the art is described in a critically and concise way in the latest surveys (Tahmasebi et al., 2018; Kutuzov et al., 2018; Tang, 2018). The large majority of the methods use English as the target language for the diachronic analysis, while other languages remain under-explored. To date, only one evaluation has been carried out on the Italian language using the Kronos-it dataset (Basile et al., 2019).
+Dinky will respect the following variables, if set in your site's `_config.yml`:
 
-DIACR-Ita builds independently on the the Semeval 2020 Task 1: Unsupervised Lexical Semantic Change Detection (Schlechtweg et al. 2020, https://competitions.codalab.org/competitions/20948) that  will host for the first time a task on unsupervised lexical semantic change detection.
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
 
+Additionally, you may choose to set the following optional variables:
 
-## Task Description
+```yml
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
 
-The goal of the task is to establish if a set of words (target words) change their meaning across two periods, t1 and t2, where t1 precedes t2.
-Following the SemEval 2020 Task 1 setting, we rely on the comparison of two time periods. In this way we tackle two issues: 1) we reduce the number of time periods for which data has to be annotated; 2) we reduces the task complexity, allowing different model architectures to be applied to it, widening the range of possible participants.
-Participants will be provided with two corpora C1 and C2 (for time periods t1 and t2, respectively), and a set of target words. For each of them, systems have to decide whether a word changed or not its meaning between t1 and t2 according to the occurrences of target word(s) in sentences in C1 and C2. For instance, the meaning of the word “imbarcata” is known to have expanded (i.e, it has acquired a new sense) from t1 to t2 (originally it refers to an acrobatic manoeuvre of aeroplanes, but nowadays it is also used to refer to the state of being deeply in love with someone.) This will be reflected in different occurrences of use in sentences between C1 and C2.
-The task is formulated as a closed task (i.e., participants must train their models on the data that are provided).
+### Stylesheet
 
-## Guidelines
+If you'd like to add your own custom styles:
 
-<a href="/DIACR-Ita/guidelines/EVALITA_2020___DIACR_ita___Guidelines-2.pdf" target="_blank">Guidelines</a>
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+    ```scss
+    ---
+    ---
 
+    @import "{{ site.theme }}";
+    ```
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
-### References
+*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-Pierpaolo Basile, Giovanni Semeraro, and Annalina Caputo. 2019. Kronos-it: A dataset for the Italian semantic change detection task. In CEUR Workshop Proceedings, volume 2481.
+### Layouts
 
-Marco Del Tredici, Malvina Nissim, and Andrea Zaninello. 2016. Tracing metaphors in time through self-distance in vector spaces. In CEUR Workshop Proceedings. 3rd Italian Conference on Computational Linguistics, CLiC- it 2016 and 5th Evaluation Campaign of Natural Language Processing and Speech Tools for Italian, EVALITA 2016 ; Conference date: 05-12-2016 Through 07-12-2016.
+If you'd like to change the theme's HTML layout:
 
-Haim Dubossarsky, Simon Hengchen, Nina Tahmasebi, and Dominik Schlechtweg. 2019. Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change. In 57th Annual Meeting of the Association for Computational Linguistics, pages 457–470. Association for Computational Linguistics (ACL), sep.
+1. [Copy the original template](https://github.com/pages-themes/dinky/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+2. Create a file called `/_layouts/default.html` in your site
+3. Paste the default layout content copied in the first step
+4. Customize the layout as you'd like
 
-Maria Grossmann, Franz Rainer (Ed.). La formazione delle parole in italiano. Berlin, Boston: De Gruyter, 2013. Web. Retrieved 10 Mar. 2020, from https://www-degruyter-com.proxy-ub.rug.nl/view/product/25447
+### Overriding GitHub-generated URLs
 
-William L. Hamilton, Jure Leskovec, and Dan Jurafsky. 2016. Diachronie word embeddings reveal statistical laws of semantic change. In 54th Annual Meeting of the Association for Computational Linguistics, ACL 2016 - Long Papers, volume 3, pages 1489–1501, may.
+Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-Willem Hollmann. 2009. Semantic change. In English Language: Description, Variation and Context, pages 301–313. Basingstoke: Palgrave.
+1. Look at [the template source](https://github.com/pages-themes/dinky/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+    ```yml
+    github:
+      zip_url: http://example.com/download.zip
+      another_url: another value
+    ```
+3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
-Renfen Hu, Shen Li, and Shichen Liang. 2019. Diachronic Sense Modeling with Deep Contextualized Word Embeddings: An Ecological View. In 57th Annual Meeting of the Association for Computational Linguistics, pages 3899–3908.
+*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
 
-Andrey Kutuzov, Lilja Øvrelid, Terrence Szymanski, and Erik Velldal. 2018. Diachronic word embeddings and semantic shifts: a survey. 27th International Conference on Computational Linguistics.
+For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
-Maja Rudolph and David Blei. 2018. Dynamic Embeddings for Language Evolution. In WWW ’18: Proceedings of the 2018 World Wide Web Conference, pages 1003–1011. Association for Computing Machinery (ACM).
+## Roadmap
 
-Dominik Schlechtweg, Sabine Schulte im Walde, and Stefanie Eckmann. 2018. Diachronic usage relatedness (DURel): A framework for the annotation of lexical semantic change. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technolo- gies, Volume 2 (Short Papers), pages 169–174, New Orleans, Louisiana, June. Association for Computational Linguistics.
+See the [open issues](https://github.com/pages-themes/dinky/issues) for a list of proposed features (and known issues).
 
-Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky and Nina Tahmasebi. 2020. SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection. SemEval@COLING2020.
+## Project philosophy
 
-Nina Tahmasebi and Thomas Risse. 2017. Finding IndividualWord Sense Changes and their Delay in Appearance. In International Conference Recent Advances in Natural Language Processing, pages 741–749. Assoc. for Computational Linguistics Bulgaria, nov.
+The Dinky theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
-Nina Tahmasebi, Lars Borin, and Adam Jatowt. 2018. Survey of Computational Approaches to Lexical Semantic Change. 1st International Workshop on Computational Approaches to Historical Language Change 2019.
+## Contributing
 
-Xuri Tang. 2018. A state-of-the-art of semantic change computation. Natural Language Engineering, 24(5):649– 676, sep.
-Elizabeth Closs Traugott. 2006. Semantic change: Bleaching, strengthening, narrowing, extension. In Encyclope- dia of Language and Linguistics. Elsevier.
+Interested in contributing to Dinky? We'd love your help. Dinky is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
-Zijun Yao, Yifan Sun, Weicong Ding, Nikhil Rao, and Hui Xiong. 2018. Dynamic word embeddings for evolving semantic discovery. In WSDM 2018 - Proceedings of the 11th ACM International Conference on Web Search and Data Mining, volume 2018-Febua, pages 673–681.
+### Previewing the theme locally
 
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-## Important Dates
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/dinky`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
-- **5th April 2020**: [registration](https://forms.gle/pXgWVDiMMUYDgeyM7) is open
-- **29th May 2020**: distribution of data sets for training and development
-- **4th September 2020**: distribution of datasets for testing
-- **4th - 24th September 2020**: evaluation windows and collection of participants results
-- **2nd October 2020**: assessment returned to participants
-- **tbd**: report due from participants
-- **30th November – 3rd December 2020**: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
+### Running tests
 
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
 
-## Organizers
-
-- Pierpaolo Basile - Università di Bari "A. Moro"
-- Tommaso Caselli - Rijksuniveristeit Gronigen
-- Annalina Caputo - Dublin City University
-- Rossella Varvara - Università di Firenze
-- Pierluigi Cassotti - Università di Bari "A. Moro"
