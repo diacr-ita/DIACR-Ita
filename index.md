@@ -1,6 +1,6 @@
 ---
+redirect_from: "/"
 layout: default
-redirect_from: "https://diacr-ita.github.io/"
 ---
 
 ## Welcome to the DIACR-Ita task!
