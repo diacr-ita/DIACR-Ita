@@ -1,10 +1,4 @@
 ---
-redirect_from:
-  - https://diacr-ita.github.io/
-  - http://diacr-ita.github.io/  
-  - http://diacr-ita.github.io
-  - https://diacr-ita.github.io
-  - /test
 layout: default
 ---
 
