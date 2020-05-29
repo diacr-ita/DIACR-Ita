@@ -10,7 +10,7 @@ DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it
 ## News
 
 29 May 2020 - Development Data:
-Development Data are now available (https://github.com/diacr-ita/data)
+[Development Data are now available](https://github.com/diacr-ita/data)
 
 14 May 2020 - Google Groups:
 Join our [Google Groups](https://groups.google.com/forum/embed/?place=forum/evalita-2020-diacr-ita) to receive the latest news and post questions and doubts.
