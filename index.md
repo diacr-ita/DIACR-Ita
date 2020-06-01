@@ -71,9 +71,9 @@ Andrey Kutuzov, Lilja Øvrelid, Terrence Szymanski, and Erik Velldal. 2018. Diac
 
 Maja Rudolph and David Blei. 2018. Dynamic Embeddings for Language Evolution. In WWW ’18: Proceedings of the 2018 World Wide Web Conference, pages 1003–1011. Association for Computing Machinery (ACM).
 
-Dominik Schlechtweg, Sabine Schulte im Walde, and Stefanie Eckmann. 2018. Diachronic usage relatedness (DURel): A framework for the annotation of lexical semantic change. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technolo- gies, Volume 2 (Short Papers), pages 169–174, New Orleans, Louisiana, June. Association for Computational Linguistics.
+Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky, and Nina Tahmasebi. 2020. SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection. In To appear in Proceedings of the 14th International Workshop on Semantic Evaluation, Barcelona, Spain. Association for Computational Linguistics.
 
-Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky and Nina Tahmasebi. 2020. SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection. SemEval@COLING2020.
+Dominik Schlechtweg, Sabine Schulte im Walde, and Stefanie Eckmann. 2018. Diachronic usage relatedness (DURel): A framework for the annotation of lexical semantic change. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technolo- gies, Volume 2 (Short Papers), pages 169–174, New Orleans, Louisiana, June. Association for Computational Linguistics.
 
 Nina Tahmasebi and Thomas Risse. 2017. Finding IndividualWord Sense Changes and their Delay in Appearance. In International Conference Recent Advances in Natural Language Processing, pages 741–749. Assoc. for Computational Linguistics Bulgaria, nov.
 
