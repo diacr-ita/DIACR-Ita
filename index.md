@@ -48,7 +48,7 @@ The task is formulated as a closed task (i.e., participants must train their mod
 
 ## Guidelines
 
-<a href="/DIACR-Ita/guidelines/EVALITA_2020___DIACR_ita___Guidelines-2.pdf" target="_blank">Guidelines</a>
+<a href="/DIACR-Ita/guidelines/EVALITA_2020___DIACR_ita___Guidelines.pdf" target="_blank">Guidelines</a>
 
 
 ### References
