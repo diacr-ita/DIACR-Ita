@@ -91,10 +91,10 @@ Zijun Yao, Yifan Sun, Weicong Ding, Nikhil Rao, and Hui Xiong. 2018. Dynamic wor
 - **29th May 2020**: distribution of data sets for training and development
 - **4th September 2020**: registration closes
 - **11th September 2020**: distribution of datasets for testing
-- **11th - 17th September 2020**: evaluation windows and collection of participants results
+- **18th - 25th September 2020**: evaluation windows and collection of participants results
 - **2nd October 2020**: assessment returned to participants
-- **6th November 2020**: report due from participants
-- **30th November – 3rd December 2020**: [EVALITA 2020](http://www.evalita.it/) (co-located with CLiC-it 2020)
+- **16th October**: deadline for submission of system description papers
+- **16th December – 17th December 2020**: [EVALITA 2020](http://www.evalita.it/)
 
 
 ## Organizers
