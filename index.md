@@ -9,7 +9,7 @@ DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it
 
 ## News
 
-11 September 2020 - Training Data:
+11 September 2020 - 
 Training Data are now available, [Diacr-Ita Google Group](https://groups.google.com/forum/embed/?place=forum/evalita-2020-diacr-ita) 
 
 29 May 2020 - Development Data:
