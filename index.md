@@ -10,7 +10,7 @@ DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it
 ## News
 
 18 September 2020 - 
-Targets words are now available on [Github](https://github.com/diacr-ita/data/tree/master/test)
+Target words are now available on [Github](https://github.com/diacr-ita/data/tree/master/test)
 
 11 September 2020 - 
 Training Data are now available, [Diacr-Ita Google Group](https://groups.google.com/forum/embed/?place=forum/evalita-2020-diacr-ita) 
