@@ -7,6 +7,18 @@ layout: default
 DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it/2020/), the 7th evaluation campaign of Natural Language Processing and Speech tools for Italian, which will be held in Bologna (Italy) and will be co-located with [CLiC-it 2020](http://clic2020.ilc.cnr.it/en/home-2/) (November 30th – December 3rd 2020).
 
 
+## Menu
+
+- [Introduction](#intro)
+- [Task Description](#task-description)
+- [Data Description](#data-description)
+- [Guidelines](#guidelines)
+- [References](#references)
+- [Important Dates](#important-dates)
+- [Organizers](#organizers)
+- [Dataset](#dataset)
+
+
 ## News
 
 18 September 2020 - 
@@ -25,15 +37,7 @@ Join our [Google Groups](https://groups.google.com/forum/embed/?place=forum/eval
 If you would like to take part in the challenge, let us know! Please, fill in this [form](https://forms.gle/pXgWVDiMMUYDgeyM7).
 
 
-## Menu
-
-- [Task Description](#task-description)
-- [Data Description](#data-description)
-- [Guidelines](#guidelines)
-- [References](#references)
-- [Important Dates](#important-dates)
-- [Organizers](#organizers)
-
+## Introduction
 
 DIACR-Ita is the first task on lexical semantic change for Italian, combining together computational and historical linguistics. The task challenges participants to develop systems that can automatically detect if a given word has changed its meaning over time, given contextual information from corpora.
 
@@ -110,3 +114,8 @@ Zijun Yao, Yifan Sun, Weicong Ding, Nikhil Rao, and Hui Xiong. 2018. Dynamic wor
 - Annalina Caputo - Dublin City University
 - Rossella Varvara - Università di Firenze
 - Pierluigi Cassotti - Università di Bari "A. Moro"
+
+
+## Dataset
+
+We have made Diacr-ITA dataset available. In order to access the data, you need to fill in a licence agreement form that you can find [here](https://docs.google.com/forms/d/e/1FAIpQLSdM5bd5qg3TXKVPFbNyuGjnOkbxwFo38k3Tig9XZLNjt7Z3Gg/viewform).
