@@ -9,7 +9,7 @@ DIACR-Ita is a shared task organised within [Evalita 2020](http://www.evalita.it
 
 ## Menu
 
-- [Introduction](#intro)
+- [Introduction](#introduction)
 - [Task Description](#task-description)
 - [Data Description](#data-description)
 - [Guidelines](#guidelines)
